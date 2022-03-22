@@ -12,12 +12,13 @@ Type = 3
 OtRate = 1700
 Please Note that the input command in C++ is std::cin. This is a representation of the Keyboard.*/
 
-#include <stdio.h>
+#include <iostream>
 int main()
 {
    double salary, netSalary;
    int etype, otHrs, otRate;
-   printf("Enter Employee Type : ");
+
+    std::cout<<"Enter the employee type :"
    scanf("%d", &etype);
    printf("Enter Salary  : ");
    scanf("%f", &salary);

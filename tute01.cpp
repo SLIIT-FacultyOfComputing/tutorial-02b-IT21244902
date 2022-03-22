@@ -23,12 +23,12 @@ int main()
 {
     float cm, inches;
 
-  std::cout<<"Enter length in centemeters :" <<endl;
-  std::cin>>cim;
+  std::cout<<"Enter length in centemeters :" ;
+  std::cin>>cm ;
 
   inches=cm/2.54;
 
-  std::cout<<"Length in inches :"<<inches<<endl;
+  std::cout<<"Length in inches :"<<inches ;
     
     return 0;
 }  
